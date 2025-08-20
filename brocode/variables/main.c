@@ -36,6 +36,13 @@ int main() {
     printf("Are you a student? %s\n", isStudent ? "Yes" : "No");
 
     bool isOnline = true;
+    bool isStudent1 = true;
+
+    if (isStudent1) {
+        printf("You are a student");
+    } else {
+        printf("You are not a student");
+    }
 
     if (isOnline) {
         printf("You are ONLINE\n");
