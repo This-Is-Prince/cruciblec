@@ -5,6 +5,9 @@
         "_stdio.h": "c",
         "unistd.h": "c",
         "stdlib.h": "c",
-        "time.h": "c"
+        "time.h": "c",
+        "cstdlib": "c",
+        "locale": "c",
+        "new": "c"
     }
 }
