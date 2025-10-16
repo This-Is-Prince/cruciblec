@@ -8,6 +8,9 @@
         "time.h": "c",
         "cstdlib": "c",
         "locale": "c",
-        "new": "c"
+        "new": "c",
+        "mman.h": "c",
+        "stat.h": "c",
+        "fcntl.h": "c"
     }
 }
