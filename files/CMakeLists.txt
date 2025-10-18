@@ -2,4 +2,6 @@ cmake_minimum_required(VERSION 3.13)
 
 project(files C)
 
-add_executable(files main.c)
+file(GLOB_RECURSE SOURCE_FILES src/*.h src/*.c)
+
+add_executable(files ${SOURCE_FILES})
