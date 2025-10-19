@@ -21,7 +21,7 @@ void OpenFile(bool run) {
 
     if (fd == -1) {
         perror("error opening file");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     bytes_written = write(fd, text, strlen(text));
@@ -29,13 +29,13 @@ void OpenFile(bool run) {
     if (bytes_written == -1) {
         perror("error writing to file");
         close(fd);
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     printf("Successfully wrote %ld bytes to the file.\n", bytes_written);
 
     if (close(fd) == -1) {
         perror("error closing file");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 }

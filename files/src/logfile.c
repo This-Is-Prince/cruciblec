@@ -21,7 +21,7 @@ void OpenLogFile(bool run) {
     fd = open("assets/app.log", flags, mode);
     if (fd == -1) {
         perror("failed open log file");
-        exit(1);
+        exit(EXIT_FAILURE);
     }
 
     char *t_str = ctime(&now);

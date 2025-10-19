@@ -11,6 +11,7 @@
         "new": "c",
         "mman.h": "c",
         "stat.h": "c",
-        "fcntl.h": "c"
+        "fcntl.h": "c",
+        "_stdlib.h": "c"
     }
 }
