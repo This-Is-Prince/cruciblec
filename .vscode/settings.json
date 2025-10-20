@@ -12,6 +12,9 @@
         "mman.h": "c",
         "stat.h": "c",
         "fcntl.h": "c",
-        "_stdlib.h": "c"
+        "_stdlib.h": "c",
+        "pthread.h": "c",
+        "race_condition.h": "c",
+        "_pthread_types.h": "c"
     }
 }
