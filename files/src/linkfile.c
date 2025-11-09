@@ -39,10 +39,10 @@ void LinkFile(bool run) {
 
     printf(">>> Created hard link: %s -> %s\n\n", hardlinked, original);
 
-    sleep(5);
-
     print_stats(original);
     print_stats(hardlinked);
+    
+    sleep(5);
 
     unlink(original);
     unlink(hardlinked);

@@ -33,7 +33,6 @@ void SymLinkFile(bool run) {
         return;
     }
 
-
     const char *original = "assets/original.txt";
     const char *softlink = "assets/softlink.txt";
 
